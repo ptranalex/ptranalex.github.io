@@ -1,22 +1,14 @@
 ---
-title: "The Golden Age of Delegation"
-date: 2025-10-18
-layout: single
-author_profile: true
-excerpt: "AI isn’t making us stupid — it’s making it easier to skip the hard parts of thinking. The real 2025 skill isn’t prompt engineering, it’s delegation judgment."
-header:
-  overlay_image: /assets/images/blog/golden-age-delegation.jpg
-  overlay_filter: 0.4
-  caption: "📷 Illustration generated with DeepAI"
-  teaser: /assets/images/blog/golden-age-delegation.jpg
-tags:
-  - AI
-  - Reflection
-  - Technology
-  - Thinking
+title: "🧠 The Golden Age of Delegation"
+date: 2025-10-18 12:00:00 +0700
+categories: [Blog, Essays & Reflections]
+tags: [ai, philosophy, human-judgment, reflection, thinking]
+image:
+  path: /assets/images/blog/golden-age-delegation.jpg
+  alt: The Golden Age of Delegation
 ---
 
-💡 _“Are we living in a golden age of stupidity?”_ — The Guardian asked this recently.  
+_“Are we living in a golden age of stupidity?”_ — The Guardian asked this recently.  
 And it stuck with me.
 
 Because I’ve been thinking about something else —  

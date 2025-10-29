@@ -1,160 +1,125 @@
 # Site Settings
-title: "Alex Tran"
-title_separator: "|"
-subtitle: "Developer & Creator"
-name: "Alex Tran"
-description: "Personal blog and portfolio showcasing projects and thoughts on technology, development, and more."
+lang: en
+timezone: Asia/Ho_Chi_Minh
+
+# Jekyll Configuration
+title: Alex Tran
+tagline: Exploring how we build software, systems, and teams that scale.
+description: >-
+  Personal blog and portfolio showcasing projects and thoughts on technology, 
+  development, AI, and the craft of building meaningful software.
+
 url: "https://ptranalex.github.io"
 baseurl: ""
-repository: "ptranalex/ptranalex.github.io"
+
+# GitHub configuration (for sidebar icon)
+github:
+  username: ptranalex
+
+# Twitter/X configuration (optional - uncomment to add Twitter icon)
+# twitter:
+#   username: yourusername
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "aqua" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme: jekyll-theme-chirpy
 
-# Site Author
-author:
-  name: "Alex Tran"
-  avatar: "/assets/images/avatar.jpg" # path of avatar image
-  bio: "Developer passionate about building great software and sharing knowledge."
-  location: "Vietnam | Australia"
+# Social media
+social:
+  name: Alex Tran
+  email: me@alexsandbox.me
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:me@alexsandbox.me"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ptranalex"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/yourusername"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ptranalex/"
-    # - label: "Substack"
-    #   icon: "fab fa-fw fa-substack"
-    #   url: "https://substack.com/ptranalex"
+    - https://github.com/ptranalex
+    - https://www.linkedin.com/in/ptranalex/
 
-# Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ptranalex"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/yourusername"
+# Site verification (optional - for search engines)
+# google_site_verification:
+# bing_site_verification:
 
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Analytics (optional)
+# google_analytics:
+#   id:
 
-# Conversion
+# Theme mode toggle button will appear when theme_mode is not set
+# Remove this line to show the mode toggle button in the sidebar
+# theme_mode: auto
+
+# Avatar
+avatar: /assets/images/avatar.jpg
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Jekyll Archives (for categories and tags)
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Markdown and Syntax Highlighting
 markdown: kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
 
-# Markdown Processing
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 # Collections
 collections:
-  portfolio:
+  tabs:
     output: true
-    permalink: /:collection/:path/
+    sort_by: order
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
+      layout: post
       comments: true
-      share: true
-      related: true
-  # _pages
+      toc: true
+      permalink: /posts/:title/
   - scope:
-      path: "_pages"
-      type: pages
+      path: _drafts
     values:
-      layout: single
-      author_profile: true
-  # _portfolio
+      comments: false
   - scope:
       path: ""
-      type: portfolio
+      type: tabs
     values:
-      layout: single
-      author_profile: false
-      share: true
+      layout: page
+      permalink: /:title/
 
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-# Pagination
-paginate: 5
-paginate_path: /page:num/
+# Exclude from processing
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - tools
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - rollup.config.js
+  - node_modules
+  - package*.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor

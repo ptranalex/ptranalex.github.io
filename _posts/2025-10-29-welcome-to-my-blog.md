@@ -1,63 +1,54 @@
 ---
-title: "Welcome to My Blog!"
-date: 2025-10-29
-categories:
-  - blog
-tags:
-  - introduction
-  - jekyll
-  - github-pages
-excerpt: "A fresh space to share my notes, experiments, and reflections — powered by Jekyll and the Minimal Mistakes theme."
-header:
-  overlay_color: "#222"
-  overlay_filter: "0.4"
+title: "Welcome to My Blog"
+date: 2025-10-29 12:00:00 +0700
+categories: [Blog, Meta]
+tags: [introduction, blog, personal-note]
 ---
 
-# Hello and Welcome! 🎉
+I'm Alex — a builder at heart, rediscovering the craft of engineering after years leading product and technology teams.
 
-I’m excited to finally share this new space — my personal blog and engineering notebook, built with **Jekyll** and the **Minimal Mistakes** theme.
-
-After years of writing privately in snippets, I wanted a place that feels like _my digital workshop_: where I can publish ideas, document projects, and reflect on the craft of building software.
+This blog is my **digital workshop** — a place to explore ideas, document projects, and reflect on how we build software, systems, and teams in an era shaped by AI.
 
 ---
 
-## 🧠 What You’ll Find Here
+## 🧭 What You’ll Find Here
 
-This blog is a collection of **essays, deep dives, and experiments** around topics that matter most to me:
+I write about **engineering, AI, and the evolving craft of building** — where tools, systems, and human judgment intersect:
 
-- 🧩 **Engineering & System Design** — lessons from building scalable backend systems and data pipelines
-- ⚙️ **Automation & Tools** — projects that make everyday workflows faster, smarter, and more fun
-- 🧠 **AI & Productivity** — exploring how large language models and agents are reshaping software creation
+- 🧩 **Engineering & System Design** — lessons from building scalable backend systems, APIs, and data pipelines
+- ⚙️ **Automation & Tools** — experiments that make workflows faster, cleaner, and more enjoyable
+- 🧠 **AI & Human Productivity** — exploring how large language models and agents are reshaping the way we think and code
 - 🚀 **Career & Leadership** — reflections on leading teams and bridging the gap between product and engineering
 
-Each post is short, honest, and focused on sharing something useful — either a concept, a decision, or a framework that I found valuable.
+Each post is short, practical, and written with intent — sharing something I’ve learned, tested, or questioned along the way.
 
 ---
 
-## ⚙️ Why Jekyll and Minimal Mistakes?
+## ⚙️ Why Jekyll and Chirpy?
 
-I chose this stack because it’s **simple, fast, and long-term friendly**:
+I wanted a setup that feels as **engineering-pure** as the ideas it hosts — minimal, fast, and fully under my control.
 
-1. 🧱 **Static by design** — no backend, no maintenance, just pure Markdown rendered as HTML
-2. 🌍 **Native GitHub Pages support** — automatic deployment every time I push a commit
-3. ✍️ **Markdown-first workflow** — write anywhere, version in Git
-4. 🎨 **Minimal Mistakes theme** — polished, responsive, and customizable without complexity
+1. 🧱 **Static by design** — no backend, no maintenance, just Markdown rendered as HTML
+2. 🌍 **GitHub-native** — every commit becomes a published post
+3. ✍️ **Markdown-first workflow** — clean, distraction-free writing that fits my developer habits
+4. 🎨 **Chirpy theme** — simple, dark-mode friendly, and focused on the words, not the widgets
 
-It’s the perfect foundation for a personal engineering blog — low friction, high clarity, and fully under my control.
+It’s a setup that rewards clarity over complexity — the same principle I try to apply to code and systems.
 
 ---
 
 ## 🔭 What’s Next
 
-I’ll be posting regularly about topics like:
+I’ll be writing about:
 
 - building and scaling **NextWatch**, my movie discovery platform
-- experimenting with **AI summarization agents** and automation pipelines
-- insights from **transitioning between product and engineering leadership**
+- designing **AI summarization agents** and automation pipelines
+- lessons from **transitioning between product and engineering leadership**
 
-You can explore my [portfolio](/portfolio/) to see what I’ve built, or visit the [about page](/about/) for more about my background.
+You can check out my [portfolio](/portfolio/) for current projects or visit the [about page](/about/) to learn more about my background.
 
 ---
 
 Thanks for stopping by — and welcome to my corner of the internet.  
-I hope you find something here that sparks a thought or inspires you to build.
+If any post sparks an idea or a question, I’d love to hear from you.  
+Let’s keep building things that matter.

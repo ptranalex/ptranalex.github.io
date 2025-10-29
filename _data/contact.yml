@@ -1,0 +1,23 @@
+# Contact/Social links displayed in the sidebar bottom
+# Icons will appear horizontally next to the mode toggle button
+
+- type: github
+  icon: "fab fa-github"
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/ptranalex/"
+
+- type: email
+  icon: "fas fa-envelope"
+
+- type: rss
+  icon: "fas fa-rss"
+# Optional: Add Twitter/X
+# 1. Add this to _config.yml:
+# twitter:
+#   username: yourusername
+# 2. Then uncomment below:
+# - type: twitter
+#   icon: "fab fa-x-twitter"
+

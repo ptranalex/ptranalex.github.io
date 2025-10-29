@@ -1,20 +1,11 @@
 ---
-layout: single
-title: "🚨 The Arrival of ChatGPT Atlas — What It Means for Engineers & Makers"
-date: 2025-10-22
-excerpt: >
-  The launch of ChatGPT Atlas marks a shift—not just for browsers, but for how we think about tools, creation and what engineering means in the AI era.
-categories:
-  - blog
-tags:
-  - ai
-  - chatgptatlass
-  - engineering
-  - leadership
-  - futureofwork
-author_profile: true
-read_time: true
-toc: false
+title: "🧭 The Arrival of ChatGPT Atlas — What It Means for Engineers & Makers"
+date: 2025-10-22 12:00:00 +0700
+categories: [Blog, AI & Tools, Engineering]
+tags: [ai, chatgptatlas, engineering, leadership, futureofwork]
+image:
+  path: /assets/images/blog/chatgpt-atlas.jpg
+  alt: Love What You Build
 ---
 
 Last week, OpenAI dropped something that immediately caught my attention: **ChatGPT Atlas**. Think of it as a browser—but not the one you’re used to. It’s designed around an AI assistant. It’s built to help you **think**, not just browse.

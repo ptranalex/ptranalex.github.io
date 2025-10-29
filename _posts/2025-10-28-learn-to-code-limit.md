@@ -1,26 +1,11 @@
 ---
-layout: single
-title: "💡 From “Learn to Code” to “Love What You Build”"
-date: 2025-10-29
-excerpt: >
-  We’ve spent years teaching people *how* to code — but rarely *why* to build.  
-  This is a reflection on rediscovering craft, purpose, and the quiet joy of creating something that truly matters.
-header:
-  overlay_image: /assets/images/blog/love-what-you-build.jpeg
-  overlay_filter: 0.4
-  caption: "📷 Illustration generated with DeepAI"
-  teaser: /assets/images/blog/love-what-you-build.jpeg
-categories:
-  - blog
-tags:
-  - craft
-  - engineering
-  - leadership
-  - reflection
-  - meaning
-author_profile: true
-read_time: true
-toc: false
+title: "💙 From “Learn to Code” to “Love What You Build”"
+date: 2025-10-28 12:00:00 +0700
+categories: [Blog, Engineering]
+tags: [craft, engineering, leadership, reflection, meaning]
+image:
+  path: /assets/images/blog/love-what-you-build.jpeg
+  alt: Love What You Build
 ---
 
 I still remember the first time I felt proud of something I built.  
