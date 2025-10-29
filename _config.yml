@@ -10,14 +10,14 @@ repository: "ptranalex/ptranalex.github.io"
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "sunrise" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # Base skin - overridden by custom CSS in assets/css/main.scss
 
 # Site Author
 author:
   name: "Alex Tran"
   avatar: "/assets/images/avatar.jpg" # path of avatar image
   bio: "Developer passionate about building great software and sharing knowledge."
-  location: "🇻🇳 Vietnam | 🇦🇺 Australia"
+  location: "Vietnam | Australia"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
