@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "💡 From “Learn to Code” to “Love What You Build”"
 date: 2025-10-28
 categories:
