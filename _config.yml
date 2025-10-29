@@ -21,8 +21,7 @@ github:
 #   username: yourusername
 
 # Theme Settings
-# theme: jekyll-theme-chirpy
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 
 # Social media
 social:
