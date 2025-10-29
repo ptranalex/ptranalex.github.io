@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 excerpt: "AI isn’t making us stupid — it’s making it easier to skip the hard parts of thinking. The real 2025 skill isn’t prompt engineering, it’s delegation judgment."
 header:
-  overlay_image: /assets/images/blog/golden-age-of-delegation.jpg
+  overlay_image: /assets/images/blog/golden-age-delegation.jpg
   overlay_filter: 0.4
   caption: "📷 Illustration generated with DeepAI"
   teaser: /assets/images/blog/golden-age-of-delegation.jpg
