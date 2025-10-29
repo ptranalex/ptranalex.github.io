@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "💡 From “Learn to Code” to “Love What You Build”"
-date: 2025-10-29
+date: 2025-10-28
 categories:
   - blog
 tags:
