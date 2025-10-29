@@ -36,11 +36,3 @@ feature_row:
 ---
 
 {% include feature_row %}
-
-## Recent Posts
-
-<div class="grid__wrapper">
-  {% for post in site.posts limit:3 %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
