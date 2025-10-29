@@ -5,6 +5,11 @@ date: 2025-10-29
 excerpt: >
   We’ve spent years teaching people *how* to code — but rarely *why* to build.  
   This is a reflection on rediscovering craft, purpose, and the quiet joy of creating something that truly matters.
+header:
+  overlay_image: /assets/images/blog/love-what-you-build.jpeg
+  overlay_filter: 0.4
+  caption: "📷 Illustration generated with DeepAI"
+  teaser: /assets/images/blog/love-what-you-build.jpeg
 categories:
   - blog
 tags:
