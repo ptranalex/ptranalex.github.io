@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/blog/golden-age-delegation.jpg
   overlay_filter: 0.4
   caption: "📷 Illustration generated with DeepAI"
-  teaser: /assets/images/blog/golden-age-of-delegation.jpg
+  teaser: /assets/images/blog/golden-age-delegation.jpg
 tags:
   - AI
   - Reflection
