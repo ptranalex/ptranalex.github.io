@@ -10,7 +10,7 @@ image:
 
 > “Sometimes life subtracts before it multiplies.”
 
-It was a Wednesday — one of those rare work-from-home days we quietly looked forward to.  
+It was a Tuesday — one of those rare work-from-home days we quietly looked forward to.  
 But that morning, an unexpected **company-wide town hall** asked everyone to come in.
 
 The Saigon office was unusually still.  
