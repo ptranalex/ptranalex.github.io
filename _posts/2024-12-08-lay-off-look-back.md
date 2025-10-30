@@ -13,7 +13,7 @@ image:
 It was a Tuesday — one of those rare work-from-home days we quietly looked forward to.  
 But that morning, an unexpected **company-wide town hall** asked everyone to come in.
 
-The Saigon office was unusually still.  
+The Saigon 🇻🇳 office was unusually still.  
 We gathered in the pantry — a cluster of laptops glowing against white tiles, the hum of the coffee machine filling small silences.  
 Nobody said it out loud, but everyone felt it: something was off.
 
