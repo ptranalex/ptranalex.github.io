@@ -36,8 +36,9 @@ social:
 # bing_site_verification:
 
 # Analytics (optional)
-google_analytics:
-  id: G-N19GB3SV3D
+analytics:
+  google:
+    id: G-N19GB3SV3D
 
 # Theme mode toggle button will appear when theme_mode is not set
 # Remove this line to show the mode toggle button in the sidebar
