@@ -5,6 +5,9 @@ description: "A short note for 2026: depth over motion, craft over velocity, lev
 date: 2026-01-03 09:00:00 +0700
 categories: [Notes, Reflection]
 tags: ["2026", reflection, craft, productivity, leadership, systems]
+image:
+  path: /assets/images/blog/2026-ahead.jpg
+  alt: A marker for the year ahead
 ---
 
 This blog isn’t about big declarations. It’s about how we think about our work, our teams, and the systems we build to last.
