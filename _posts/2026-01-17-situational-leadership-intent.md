@@ -4,7 +4,18 @@ title: "Situational Leadership, Through My Own Lens"
 description: "Classic situational leadership helped me — but adding a third axis (intent) is what made it real for me."
 date: 2026-01-17 09:00:00 +0700
 categories: [Leadership, Management]
-tags: [leadership, management, coaching, situational-leadership, growth-mindset, performance]
+tags:
+  [
+    leadership,
+    management,
+    coaching,
+    situational-leadership,
+    growth-mindset,
+    performance,
+  ]
+image:
+  path: /assets/images/blog/situation-leadership-with-intent.jpg
+  alt: Situational leadership in practice
 toc: true
 ---
 
@@ -73,7 +84,7 @@ This is situational leadership at its best: **high direction + high support → 
 
 ## Why I struggle with juniors who lack attitude
 
-When intent is missing, situational leadership *on paper* says I should:
+When intent is missing, situational leadership _on paper_ says I should:
 
 - Increase structure
 - Increase coaching
@@ -157,4 +168,3 @@ Situational leadership, applied personally, isn’t about saving everyone.
 It’s about creating conditions where those who want to grow can truly thrive — and having the courage to stop pushing when growth isn’t being met halfway.
 
 That’s the version of leadership I stand by.
-
